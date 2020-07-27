@@ -16,6 +16,8 @@ def speak_to_grandma(phrase)
     {
       puts "NO, NOT SINCE 1938!"
     }
+  end
+  
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
 
