@@ -2,10 +2,10 @@
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
-def speak_to_grandma(require_relative)
-  if require_relative == "I LOVE YOU GRANDMA!"
+def speak_to_grandma(phrase)
+  if phrase == "I LOVE YOU GRANDMA!"
       return "I LOVE YOU TOO PUMPKIN!"
-  elsif require_relative != require_relative.upcase
+  elsif require_relative != phrase.upcase
       return "HUH?! SPEAK UP, SONNY!"
   else
       return "NO, NOT SINCE 1938!"
