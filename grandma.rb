@@ -4,11 +4,11 @@
 # unless you shout it (type in all capitals).
 def speak_to_grandma(require_relative)
   if require_relative == "I LOVE YOU GRANDMA!"
-      puts "I LOVE YOU TOO PUMPKIN!"
+      return "I LOVE YOU TOO PUMPKIN!"
   elsif require_relative != require_relative.upcase
-      puts "HUH?! SPEAK UP, SONNY!"
+      return "HUH?! SPEAK UP, SONNY!"
   else
-      puts "NO, NOT SINCE 1938!"
+      return "NO, NOT SINCE 1938!"
 end
 
 # If you shout, she can hear you (or at least she thinks so)
