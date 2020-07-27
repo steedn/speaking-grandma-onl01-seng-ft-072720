@@ -11,10 +11,3 @@ def speak_to_grandma(phrase)
   else
       return "NO, NOT SINCE 1938!"
 end
-
-# If you shout, she can hear you (or at least she thinks so)
-# and yells back
-
-# NO, NOT SINCE 1938!
-
-# However if you say 'I LOVE YOU GRANDMA!', she should respond with
