@@ -5,7 +5,7 @@
 def speak_to_grandma(require_relative)
   if require_relative == "I LOVE YOU GRANDMA!"
       puts "I LOVE YOU TOO PUMPKIN!"
-  elsif require_relative != phrase.upcase
+  elsif require_relative != require_relative.upcase
       puts "HUH?! SPEAK UP, SONNY!"
   else
       puts "NO, NOT SINCE 1938!"
